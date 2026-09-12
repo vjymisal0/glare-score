@@ -1,0 +1,67 @@
+{
+  "name": "glare-score",
+  "version": "1.0.0",
+  "description": "Detect and quantify specular glare and flash reflection hotspots in images. Optimized for pre-OCR document scanning, KYC ID card verification, and photo quality pipelines.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build && npm test"
+  },
+  "keywords": [
+    "glare",
+    "glare-score",
+    "glare-detection",
+    "specular-reflection",
+    "flash-reflection",
+    "image-quality",
+    "kyc",
+    "ocr",
+    "document-scanning",
+    "id-verification",
+    "sharp",
+    "image-processing",
+    "hotspot-detection",
+    "photo-quality"
+  ],
+  "author": "Vijay Misal <misalvijay153@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjymisal0/glare-score.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vjymisal0/glare-score/issues"
+  },
+  "homepage": "https://github.com/vjymisal0/glare-score#readme",
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
