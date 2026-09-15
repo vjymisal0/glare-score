@@ -1,6 +1,7 @@
 # glare-score 💡
 
 [![npm version](https://img.shields.io/npm/v/glare-score.svg?style=flat-square)](https://www.npmjs.com/package/glare-score)
+[![CI](https://github.com/vjymisal0/glare-score/actions/workflows/ci.yml/badge.svg)](https://github.com/vjymisal0/glare-score/actions/workflows/ci.yml)
 [![license](https://img.shields.io/npm/l/glare-score.svg?style=flat-square)](https://github.com/vjymisal0/glare-score/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg?style=flat-square)](https://www.typescriptlang.org)
 [![Build & Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg?style=flat-square)](https://github.com/vjymisal0/glare-score)
