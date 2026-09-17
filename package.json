@@ -1,6 +1,6 @@
 {
   "name": "glare-score",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Detect and quantify specular glare and flash reflection hotspots in images. Optimized for pre-OCR document scanning, KYC ID card verification, and photo quality pipelines.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -16,7 +16,8 @@
   "files": [
     "dist",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "build": "tsup",
