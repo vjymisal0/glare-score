@@ -280,3 +280,7 @@ npm run typecheck
 ## 📄 License
 
 [MIT](LICENSE) © [Vijay Misal](https://github.com/vjymisal0)
+
+## Limitations
+
+Glare detection is heuristic and may flag bright text or reflective surfaces. Calibrate thresholds for your capture conditions.
